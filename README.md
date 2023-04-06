@@ -15,4 +15,5 @@ database/
 certs/
 comms/
 gcodes/
+config/octo*
 ```
