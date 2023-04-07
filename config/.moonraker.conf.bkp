@@ -21,6 +21,15 @@ cors_domains =
 	https://app.fluidd.xyz
 	http://app.fluidd.xyz
 
+[power Printer]
+type = gpio
+locked_while_printing = true
+on_when_job_queued = true
+bound_services = klipper
+restart_klipper_when_powered = true
+pin = gpio25
+initial_state = off
+
 [octoprint_compat]
 
 [history]
