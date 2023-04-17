@@ -1,5 +1,7 @@
 # Printy Config
 
+#Modules
+[Exclude Object](https://www.klipper3d.org/Exclude_Object.html)
 
 # Backup
 Backups are sheduled using the following crontab entry which runs `scrips/remote_backup.sh`.
