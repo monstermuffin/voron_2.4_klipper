@@ -1,18 +1,3 @@
-[update_manager octoeverywhere]
-type = git_repo
-channel = beta
-path = /home/muffin/octoeverywhere
-origin = https://github.com/QuinnDamerell/OctoPrint-OctoEverywhere.git
-env = /home/muffin/octoeverywhere-env/bin/python
-requirements = requirements.txt
-install_script = install.sh
-managed_services = 
-	octoeverywhere
-
-[announcements]
-subscriptions = 
-	octoeverywhere
-
 [server]
 host = 0.0.0.0
 port = 7125
