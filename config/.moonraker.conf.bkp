@@ -47,6 +47,12 @@ channel = stable
 repo = mainsail-crew/mainsail
 path = ~/mainsail
 
+[update_manager crowsnest]
+type = git_repo
+path = ~/crowsnest
+origin = https://github.com/mainsail-crew/crowsnest.git
+install_script = tools/pkglist.sh
+
 [update_manager KlipperScreen]
 type = git_repo
 path = ~/KlipperScreen
