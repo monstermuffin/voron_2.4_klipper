@@ -19,6 +19,7 @@ Backups are sheduled using the following crontab entry which runs `scrips/remote
 
 # .gitignore
 ```
+**/printer-????????_??????.cfg
 logs/
 database/
 certs/
